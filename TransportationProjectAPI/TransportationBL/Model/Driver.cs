@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TransportationBL
+namespace TransportationBL.Model
 {
-  public class DriverBl
+   public class Driver
     {
-
     }
 }
