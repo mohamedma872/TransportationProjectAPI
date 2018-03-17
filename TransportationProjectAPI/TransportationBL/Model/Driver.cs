@@ -8,5 +8,6 @@ namespace TransportationBL.Model
 {
    public class Driver
     {
+
     }
 }
