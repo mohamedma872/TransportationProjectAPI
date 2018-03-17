@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TransportationBL.Model
 {
-   public class Driver
+   public class Cities
     {
-
+        public string NameAr { get; set; }
     }
 }

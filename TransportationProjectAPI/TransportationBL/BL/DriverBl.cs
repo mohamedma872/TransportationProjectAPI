@@ -12,14 +12,16 @@ namespace TransportationBL.BL
        
        
 
-       public Driver GetDriverInfo()
+       public Cities GetDriverInfo()
        {
            using (IDbConnection db=new SqlConnection(TransportationConstants.Cn))
            {
                if (db.State == ConnectionState.Closed)
                    db.Open();
-                   return db.Query<Driver>("seelct * from [user]").FirstOrDefault();
-             
+               var name= db.Query<Cities>("select NameAr from cities").FirstOrDefault();
+               return name;
+
+
 
            }
        }
