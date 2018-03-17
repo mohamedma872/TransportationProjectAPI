@@ -10,7 +10,16 @@ namespace TransportationProjectAPI.Controllers
 {
     public class RegisterController : ApiController
     {
+        [HttpGet, Route("api/Register/GetData")]
         public HttpResponseMessage GetData()
+        {
+
+            return Request.CreateResponse(HttpStatusCode.OK, new DriverBl().GetDriverInfo());
+        }
+
+
+        [HttpGet, Route("api/Register/GetData2")]
+        public HttpResponseMessage GetData2()
         {
 
             return Request.CreateResponse(HttpStatusCode.OK, new DriverBl().GetDriverInfo());
