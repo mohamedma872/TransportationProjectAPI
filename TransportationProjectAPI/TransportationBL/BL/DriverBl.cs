@@ -19,7 +19,8 @@ namespace TransportationBL.BL
                if (db.State == ConnectionState.Closed)
                    db.Open();
                    return db.Query<Driver>("seelct * from [user]").FirstOrDefault();
-              
+             
+
            }
        }
         
