@@ -1,0 +1,7 @@
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Release\TransportationBL.dll
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Release\TransportationBL.pdb
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Release\Dapper.dll
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Release\Dapper.xml
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Release\TransportationBL.csprojResolveAssemblyReference.cache
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Release\TransportationBL.dll
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Release\TransportationBL.pdb
