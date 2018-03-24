@@ -85,7 +85,6 @@ E:\Projects\Business Project\transportation project\TransportationProjectAPI\Tra
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\bin\System.Web.Http.Owin.xml
-E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\obj\Debug\TransportationProjectAPI.csprojResolveAssemblyReference.cache
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\obj\Debug\TransportationProjectAPI.dll
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\obj\Debug\TransportationProjectAPI.pdb
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\bin\TransportationBL.dll
@@ -95,3 +94,4 @@ E:\Projects\Business Project\transportation project\TransportationProjectAPI\Tra
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\bin\TransportationProjectAPI.XML
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\bin\Swashbuckle.Core.dll
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\bin\WebActivatorEx.dll
+E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationProjectAPI\obj\Debug\TransportationProjectAPI.csprojResolveAssemblyReference.cache
