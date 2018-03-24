@@ -48,8 +48,10 @@
     <Compile Include="Model\VehcielModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\BusinessException.cs" />
+    <Compile Include="utilities\Common.cs" />
     <Compile Include="utilities\OperationResult.cs" />
     <Compile Include="utilities\Transportation_Constants.cs" />
+    <Compile Include="utilities\Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

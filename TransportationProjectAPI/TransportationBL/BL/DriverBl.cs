@@ -14,19 +14,18 @@ namespace TransportationBL.BL
 
 
 
-        public int InsertNewVehicle(VehcielModel vehciel)
+        public OperationResult InsertNewVehicle(VehcielModel vehciel)
         {
             var be = new BusinessException();
+            OperationResult or = new OperationResult();
             using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
             {
 
-               
                 if (db.State == ConnectionState.Closed)
                     db.Open();
-
                 try
                 {
-                     var result = db.Query<int>("Mob_InsertNewVehcile",
+                    var result = db.Query<int>("Mob_InsertNewVehcile",
                         new
                         {
                             DriverID = vehciel.DriverId,
@@ -39,25 +38,19 @@ namespace TransportationBL.BL
                         },
                         commandType: CommandType.StoredProcedure).SingleOrDefault();
                     db.Close();
-                    if (result > 0) return result;
-                    be.Exceptions.Add("there is an error please try again ");
-                    throw be;
+                    if (result > 0)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
                 }
                 catch (Exception e)
                 {
-                    be.Exceptions.Add(e.Message);
-
-                    throw be;
+                    throw e;
                 }
-               
-               
-
             }
 
         }
-
-
-       
-
     }
 }

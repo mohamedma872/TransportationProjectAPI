@@ -8,25 +8,27 @@ using TransportationBL.BL;
 using TransportationBL.Model;
 using TransportationBL.Shared;
 using TransportationBL.utilities;
+using TransportationProjectAPI.Filter;
 
 namespace TransportationProjectAPI.Controllers
 {
+    [CustomExceptionFilter]
     public class DriverController : ApiController
     {
        
         [HttpPost, Route("api/Driver/InsertVehicleData")]
-
+      
         public OperationResult InsertVehicleData(VehcielModel model)
         {
-            var or = new OperationResult();
+            OperationResult or;
             try
             {
-                or.Result =new DriverBl().InsertNewVehicle(model);
+                or =new DriverBl().InsertNewVehicle(model);
 
             }
-            catch (BusinessException ex)
+            catch (Exception ex)
             {
-                or.Exceptions = ex.Exceptions;
+                throw ex;
 
             }
 
