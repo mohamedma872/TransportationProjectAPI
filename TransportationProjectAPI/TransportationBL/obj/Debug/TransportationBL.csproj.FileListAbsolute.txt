@@ -2,6 +2,5 @@ E:\Projects\Business Project\transportation project\TransportationProjectAPI\Tra
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\TransportationBL.pdb
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\Dapper.dll
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\Dapper.xml
-E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.csprojResolveAssemblyReference.cache
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.dll
 E:\Projects\Business Project\transportation project\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.pdb
