@@ -14,7 +14,7 @@ namespace TransportationProjectAPI.Controllers
     [CustomExceptionFilter]
     public class CustomerController : ApiController
     {
-        [HttpPost, Route("api/Customer/InsertVehicleData")]
+        [HttpPost, Route("api/Customer/GetCustomerProfile")]
      
         public OperationResult GetCustomerProfile(int id)
         {

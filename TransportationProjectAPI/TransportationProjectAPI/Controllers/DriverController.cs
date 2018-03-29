@@ -15,7 +15,29 @@ namespace TransportationProjectAPI.Controllers
     [CustomExceptionFilter]
     public class DriverController : ApiController
     {
-       
+
+        [HttpPost, Route("api/Driver/GetDriverProfile")]
+
+        public OperationResult GetDriverProfile(int id)
+        {
+            OperationResult or;
+            try
+            {
+                or = new DriverBl().GetDriverProfile(id);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
+
         [HttpPost, Route("api/Driver/InsertVehicleData")]
       
         public OperationResult InsertVehicleData(VehcielModel model)
