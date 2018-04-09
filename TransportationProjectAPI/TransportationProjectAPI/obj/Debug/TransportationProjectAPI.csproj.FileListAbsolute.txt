@@ -95,8 +95,6 @@ E:/Projects/Business Project/transportation project/TransportationProjectAPI/Tra
 E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Swashbuckle.Core.dll
 E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/WebActivatorEx.dll
 E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csprojResolveAssemblyReference.cache
-/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csprojResolveAssemblyReference.cache
-/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csproj.CoreCompileInputs.cache
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/ApplicationInsights.config
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/csc.exe
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -189,4 +187,6 @@ E:/Projects/Business Project/transportation project/TransportationProjectAPI/Tra
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.Owin.xml
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Dapper.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csprojResolveAssemblyReference.cache
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csproj.CoreCompileInputs.cache
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.dll
