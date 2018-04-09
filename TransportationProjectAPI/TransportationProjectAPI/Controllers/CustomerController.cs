@@ -14,6 +14,7 @@ namespace TransportationProjectAPI.Controllers
     [CustomExceptionFilter]
     public class CustomerController : ApiController
     {
+        
         [HttpGet, Route("api/Customer/GetCustomerProfile")]
      
         public OperationResult GetCustomerProfile(int id)
@@ -31,6 +32,7 @@ namespace TransportationProjectAPI.Controllers
             }
 
             return or;
+
 
 
         }

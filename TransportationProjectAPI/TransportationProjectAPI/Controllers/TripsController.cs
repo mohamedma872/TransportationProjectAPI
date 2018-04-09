@@ -9,5 +9,6 @@ namespace TransportationProjectAPI.Controllers
 {
     public class TripsController : ApiController
     {
+        //
     }
 }
