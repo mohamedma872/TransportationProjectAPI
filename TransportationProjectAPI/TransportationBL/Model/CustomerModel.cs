@@ -18,6 +18,8 @@ namespace TransportationBL.Model
         public string AccountNameOr { get; set; }
         public string AccountNameEn { get; set; }
         public string PhotoUrl { get; set; }
+        public string Email { get; set; }
+
 
 
         
