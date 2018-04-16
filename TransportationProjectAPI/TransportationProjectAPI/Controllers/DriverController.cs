@@ -16,7 +16,7 @@ namespace TransportationProjectAPI.Controllers
     public class DriverController : ApiController
     {
 
-        [HttpPost, Route("api/Driver/GetDriverProfile")]
+        [HttpGet, Route("api/Driver/GetDriverProfile")]
 
         public OperationResult GetDriverProfile(int id)
         {
