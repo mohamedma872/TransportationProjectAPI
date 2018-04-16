@@ -5,23 +5,22 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using TransportationBL.BL;
-using TransportationBL.Model;
 using TransportationBL.utilities;
 using TransportationProjectAPI.Filter;
 
 namespace TransportationProjectAPI.Controllers
 {
     [CustomExceptionFilter]
-    public class CustomerController : ApiController
+    public class UserController : ApiController
     {
-        [HttpPost, Route("api/Customer/GetCustomerProfile")]
-     
-        public OperationResult GetCustomerProfile(int id)
+        [HttpGet, Route("api/User/checkphonenumber")]
+
+        public OperationResult checkphonenumber(string phone)
         {
             OperationResult or;
             try
             {
-                or = new CustomerBl().GetCustomerProfile(id);
+                or = new UserBL().checkphonenumber(phone);
 
             }
             catch (Exception ex)

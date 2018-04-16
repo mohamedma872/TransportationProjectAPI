@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="BL\CustomerBl.cs" />
     <Compile Include="BL\DriverBl.cs" />
+    <Compile Include="BL\UserBL.cs" />
     <Compile Include="Model\CustomerModel.cs" />
     <Compile Include="Model\DriverModel.cs" />
     <Compile Include="Model\VehcielModel.cs" />

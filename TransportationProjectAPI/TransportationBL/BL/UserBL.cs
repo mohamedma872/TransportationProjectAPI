@@ -12,9 +12,9 @@ using TransportationBL.utilities;
 
 namespace TransportationBL.BL
 {
-   public class CustomerBl
+    public class UserBL
     {
-        public OperationResult GetCustomerProfile(int userId)
+        public OperationResult checkphonenumber(string phone)
         {
             var be = new BusinessException();
             OperationResult or = new OperationResult();
@@ -25,11 +25,11 @@ namespace TransportationBL.BL
                     db.Open();
                 try
                 {
-                    var result = db.Query<CustomerModel>("Mob_GetCustomerProfileDataById",
+                    var result = db.Query("Mob_checkphonenumber",
                         new
                         {
-                            UserId = userId,
-                           
+                            PhoneNumber = phone,
+
                         },
                         commandType: CommandType.StoredProcedure).SingleOrDefault();
                     db.Close();
