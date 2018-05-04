@@ -14,6 +14,7 @@ namespace TransportationBL.BL
 {
    public class CustomerBl
     {
+        
         public OperationResult GetCustomerProfile(int userId)
         {
             var be = new BusinessException();
