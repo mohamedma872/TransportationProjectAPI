@@ -14,6 +14,7 @@ namespace TransportationBL.BL
 {
     public class UserBL
     {
+        
         public OperationResult checkphonenumber(string phone)
         {
             var be = new BusinessException();
@@ -47,5 +48,43 @@ namespace TransportationBL.BL
             }
 
         }
+
+
+
+
+        public OperationResult checkEmail(string email)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query("Mob_checkEmail",
+                        new
+                        {
+                        email = email,
+
+                        },
+                        commandType: CommandType.StoredProcedure).SingleOrDefault();
+                    db.Close();
+                    if (result != null)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
     }
 }

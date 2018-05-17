@@ -33,5 +33,27 @@ namespace TransportationProjectAPI.Controllers
 
 
         }
+
+        [HttpGet, Route("api/User/checkEmail")]
+
+        public OperationResult checkEmail(string email)
+        {
+            OperationResult or;
+            try
+            {
+                or = new UserBL().checkEmail(email);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
     }
 }
