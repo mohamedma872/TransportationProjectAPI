@@ -36,5 +36,27 @@ namespace TransportationProjectAPI.Controllers
 
 
         }
+
+        [HttpPost, Route("api/Customer/EditCustomerProfile")]
+
+        public OperationResult EditCustomerProfile(CustomerProfileModel model)
+        {
+            OperationResult or;
+            try
+            {
+                or = new CustomerBl().EditCustomerProfile(model);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
     }
 }

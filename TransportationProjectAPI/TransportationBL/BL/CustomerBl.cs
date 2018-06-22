@@ -48,5 +48,50 @@ namespace TransportationBL.BL
             }
 
         }
+
+
+
+
+
+
+
+        public OperationResult EditCustomerProfile(CustomerProfileModel model)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<int>("Mob_EditCustomerProfile",
+                        new
+                        {
+                        UserID = model.Id,
+                        UserName = model.UserName,
+                        CountryCode = model.CountryCode,
+                        mobileNumber = model.PhoneNumber,
+                        Email = model.Email,
+
+                        },
+                        commandType: CommandType.StoredProcedure).SingleOrDefault();
+                    db.Close();
+                    if (result==1)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
     }
 }
