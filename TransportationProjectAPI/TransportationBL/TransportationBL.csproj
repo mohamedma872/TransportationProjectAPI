@@ -57,6 +57,8 @@
     <Compile Include="utilities\Transportation_Constants.cs" />
     <Compile Include="utilities\Utilities.cs" />
     <Compile Include="BL\VehicelBl.cs" />
+    <Compile Include="BL\TripBL.cs" />
+    <Compile Include="Model\TripModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
