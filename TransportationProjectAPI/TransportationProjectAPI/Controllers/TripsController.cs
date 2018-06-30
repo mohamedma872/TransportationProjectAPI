@@ -13,7 +13,7 @@ namespace TransportationProjectAPI.Controllers
 {
     public class TripsController : ApiController
     {
-        [HttpPost, Route("api/Trips/GetTripsHistory")]
+        [HttpGet, Route("api/Trips/GetTripsHistory")]
 
         public OperationResult GetTripsHistory(int id)
         {
@@ -33,5 +33,31 @@ namespace TransportationProjectAPI.Controllers
 
 
         }
+
+
+
+        [HttpGet, Route("api/Trips/GetTripsDetail")]
+
+        public OperationResult GetTripsDetail(int id)
+        {
+            OperationResult or;
+            try
+            {
+                or = new TripBL().GetTripDetail(id);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
     }
+
+
 }
