@@ -13,22 +13,25 @@ namespace TransportationBL.Model
         public string pickupName { get; set; }
         public string destinationName { get; set; }
         public string TripStatusName { get; set; }
+        public int TripId { get; set; }
 
     }
 
     class TripDetailModel
     {
+        public int TripId { get; set; }
         public string TripStartDateTime { get; set; }
         public string TripPrice { get; set; }
-        public string PickupName { get; set; }
-        public string DestinationName { get; set; }
+        public decimal? PickupLatitude { get; set; }
+        public decimal? PickupLongitude { get; set; }
+        public decimal? DestinationLatitude { get; set; }
+        public decimal? DestinationLongitude { get; set; }
         public string TripStatusName { get; set; }
         public string DriverName { get; set; }
         public string VehiclecategoryName { get; set; }
         public string PlatNumber { get; set; }
         public string Distance { get; set; }
         public string Duration { get; set; }
-
 
     }
 }
