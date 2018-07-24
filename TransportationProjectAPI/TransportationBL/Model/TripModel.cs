@@ -32,6 +32,8 @@ namespace TransportationBL.Model
         public string PlatNumber { get; set; }
         public string Distance { get; set; }
         public string Duration { get; set; }
+        public string ImageURL { get; set; }
+        public string DriverPhoneNumber { get; set; }
 
     }
 }

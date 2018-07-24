@@ -19,7 +19,7 @@ namespace TransportationBL.Model
         public string AccountNameEn { get; set; }
         public string PhotoUrl { get; set; }
         public string Email { get; set; }
-
+        public string CountryPhoneCode { get; set; }
 
     }
 
