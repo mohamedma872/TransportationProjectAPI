@@ -14,14 +14,15 @@ namespace TransportationProjectAPI.Controllers
     [CustomExceptionFilter]
     public class VehicleController : ApiController
     {
-        [HttpGet, Route("api/Vehicle/GetVehicleCategoryType")]
 
-        public OperationResult GetVehicleCategoryType()
+
+        [HttpPost, Route("api/Vehicle/InsertVehicleData")]
+        public OperationResult InsertVehicleData(VehcielModel model)
         {
             OperationResult or;
             try
             {
-                or = new VehicelBl().GetVehicleCategoryType();
+                or = new VehicelBl().InsertNewVehicle(model);
 
             }
             catch (Exception ex)
@@ -34,13 +35,67 @@ namespace TransportationProjectAPI.Controllers
 
 
         }
-        [HttpGet, Route("api/Vehicle/GetVehicleCategoryByType")]
-        public OperationResult GetVehicleCategoryByType(int typeId)
+
+        [HttpPost, Route("api/Vehicle/UpdateVehicleData")]
+        public OperationResult UpdateVehicleData(VehcielModel vehciel)
         {
             OperationResult or;
             try
             {
-                or = new VehicelBl().GetVehicleCategoryByType(typeId);
+                or = new VehicelBl().UpdateVehicleData(vehciel);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+        }
+
+        [HttpGet, Route("api/Vehicle/GetVehicleData")]
+        public OperationResult GetVehicleData(string lang,int driverId)
+        {
+            OperationResult or;
+            try
+            {
+                or = new VehicelBl().GetVehicleData(driverId,lang);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+        }
+
+        [HttpGet, Route("api/Vehicle/GetVehicleCategoryType")]
+        public OperationResult GetVehicleCategoryType(string lang)
+        {
+            OperationResult or;
+            try
+            {
+                or = new VehicelBl().GetVehicleCategoryType(lang);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+        }
+        [HttpGet, Route("api/Vehicle/GetVehicleCategoryByType")]
+        public OperationResult GetVehicleCategoryByType(int typeId,string lang)
+        {
+            OperationResult or;
+            try
+            {
+                or = new VehicelBl().GetVehicleCategoryByType(typeId,lang);
 
             }
             catch (Exception ex)
@@ -54,12 +109,12 @@ namespace TransportationProjectAPI.Controllers
 
         }
         [HttpGet, Route("api/Vehicle/GetVehicleModel")]
-        public OperationResult GetVehicleModel()
+        public OperationResult GetVehicleModel(string lang)
         {
             OperationResult or;
             try
             {
-                or = new VehicelBl().GetVehicleModel();
+                or = new VehicelBl().GetVehicleModel(lang);
 
             }
             catch (Exception ex)
@@ -72,6 +127,9 @@ namespace TransportationProjectAPI.Controllers
 
 
         }
+
+
+
 
 
     }

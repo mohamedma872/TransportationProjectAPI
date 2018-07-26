@@ -12,7 +12,122 @@ namespace TransportationBL.BL
     public class VehicelBl
     {
 
-        public OperationResult GetVehicleCategoryType()
+
+
+        public OperationResult UpdateVehicleData(VehcielModel vehciel)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<int>("Mob_EditVehicleData",
+                        new
+                        {
+                        DriverID = vehciel.driverID,
+                        VehicleCategoryId = vehciel.vCategoryNameId,
+                        WeightCapacity = vehciel.vWeight,
+                        VehicleModelId = vehciel.vModelId,
+                        WaterLoadingPrice = vehciel.priceLoadingWater,
+                        ManufactureYear = vehciel.manufactureYear,
+                        InsuranceNo = vehciel.insuranceNumber,
+                        PlatNumber = vehciel.platNumber
+                        },
+                        commandType: CommandType.StoredProcedure).SingleOrDefault();
+                    db.Close();
+                    if (result > 0)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
+        public OperationResult InsertNewVehicle(VehcielModel vehciel)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<int>("Mob_InsertNewVehcile",
+                        new
+                        {
+                        DriverID = vehciel.driverID,
+                        VehicleCategoryId = vehciel.vCategoryNameId,
+                        WeightCapacity = vehciel.vWeight,
+                        VehicleModelId = vehciel.vModelId,
+                        WaterLoadingPrice = vehciel.priceLoadingWater,
+                        ManufactureYear = vehciel.manufactureYear,
+                        InsuranceNo = vehciel.insuranceNumber,
+                        PlatNumber= vehciel.platNumber
+                        },
+                        commandType: CommandType.StoredProcedure).SingleOrDefault();
+                    db.Close();
+                    if (result > 0)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
+        public OperationResult GetVehicleData(int driverId,string lang)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<VehcielModel>("Mob_GetVehicleData",
+
+                          new
+                          {   DriverID= driverId,
+                              Lang = lang
+                          }
+                    , commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    db.Close();
+                  
+                        or.Result = result;
+                    
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
+        public OperationResult GetVehicleCategoryType(string lang)
         {
             var be = new BusinessException();
             OperationResult or = new OperationResult();
@@ -24,7 +139,12 @@ namespace TransportationBL.BL
                 try
                 {
                     var result = db.Query<VehcielCategory>("Mob_GetVehicleCategoryType",
-                                                           commandType: CommandType.StoredProcedure).ToList();
+                                                           
+                          new
+                          {
+                              Lang = lang
+                          }
+                    , commandType: CommandType.StoredProcedure).ToList();                                                          
                     db.Close();
                     if (result != null)
                         or.Result = result;
@@ -42,7 +162,7 @@ namespace TransportationBL.BL
         }
 
 
-        public OperationResult GetVehicleCategoryByType(int typeId)
+        public OperationResult GetVehicleCategoryByType(int typeId,string lang)
         {
             var be = new BusinessException();
             OperationResult or = new OperationResult();
@@ -57,9 +177,9 @@ namespace TransportationBL.BL
                           new
                             {
                                TypeId = typeId,
+                               Lang = lang
 
-                            },
-                                                           commandType: CommandType.StoredProcedure).ToList();
+                            },commandType: CommandType.StoredProcedure).ToList();
                     db.Close();
                     if (result != null)
                         or.Result = result;
@@ -76,7 +196,7 @@ namespace TransportationBL.BL
 
         }
 
-        public OperationResult GetVehicleModel()
+        public OperationResult GetVehicleModel(string lang)
         {
             var be = new BusinessException();
             OperationResult or = new OperationResult();
@@ -88,7 +208,10 @@ namespace TransportationBL.BL
                 try
                 {
                     var result = db.Query<VehcielCategory>("Mob_GetVehicleModel",
-
+                          new
+                          {
+                              Lang = lang
+                          },
                         commandType: CommandType.StoredProcedure).ToList();
                     db.Close();
                     if (result != null)

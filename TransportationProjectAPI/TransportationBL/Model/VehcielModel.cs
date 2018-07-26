@@ -8,13 +8,22 @@ namespace TransportationBL.Model
 {
   public class VehcielModel
     {
-        public int? DriverId { get; set; }
-        public int? VehicleCategoryId { get; set; }
-        public int? VehicleModelId { get; set; }
-        public int? WeightCapacity { get; set; }
-        public string PlatNumber { get; set; }
-        public int? ManufactureYear { get; set; }
-        public string InsuranceNo { get; set; }
+        
+        public int? driverID { get; set; }
+        public int? vId { get; set; }
+        public int? vCategoryNameId { get; set; }
+        public string vCategoryName { get; set; }
+        public int? trailerTypeId { get; set; }
+        public string trailerTypeName { get; set; }
+        public int? vModelId { get; set; }
+        public string vModelName { get; set; }
+        public int? vWeight { get; set; }
+        public int? priceLoadingWater { get; set; }
+        public int? manufactureYear { get; set; }
+        public string insuranceNumber { get; set; }
+        public string platNumber { get; set; }
+       
+      
 
     }
 
@@ -22,9 +31,8 @@ namespace TransportationBL.Model
     public class VehcielCategory
     {
         public int Id { get; set; }
-        public string NameAr { get; set; }
-        public string NameEn { get; set; }
-        public string NameOr { get; set; }
+        public string Name { get; set; }
+      
 
     }
 

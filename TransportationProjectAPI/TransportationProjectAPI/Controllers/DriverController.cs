@@ -38,25 +38,6 @@ namespace TransportationProjectAPI.Controllers
         }
 
 
-        [HttpPost, Route("api/Driver/InsertVehicleData")]
-      
-        public OperationResult InsertVehicleData(VehcielModel model)
-        {
-            OperationResult or;
-            try
-            {
-                or =new DriverBl().InsertNewVehicle(model);
-                
-            }
-            catch (Exception ex)
-            {
-                throw ex;
 
-            }
-
-            return or;
-
-
-        }
     }
 }
