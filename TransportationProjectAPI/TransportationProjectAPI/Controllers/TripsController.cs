@@ -57,6 +57,28 @@ namespace TransportationProjectAPI.Controllers
 
         }
 
+        [HttpGet, Route("api/Trips/GetDriverTripsDetail")]
+
+        public OperationResult GetDriverTripsDetail(int id)
+        {
+            OperationResult or;
+            try
+            {
+                or = new TripBL().GetDriverTripDetail(id);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
+
     }
 
 

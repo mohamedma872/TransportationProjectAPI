@@ -28,6 +28,8 @@ namespace TransportationBL.Model
         public decimal? DestinationLongitude { get; set; }
         public string TripStatusName { get; set; }
         public string DriverName { get; set; }
+        public string UserName { get; set; }
+        public string UserPhoneNumber { get; set; }
         public string VehiclecategoryName { get; set; }
         public string PlatNumber { get; set; }
         public string Distance { get; set; }

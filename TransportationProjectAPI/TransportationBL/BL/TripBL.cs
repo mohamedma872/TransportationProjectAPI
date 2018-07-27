@@ -79,5 +79,40 @@ namespace TransportationBL.BL
 
         }
 
+        public OperationResult GetDriverTripDetail(int tripID)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<TripDetailModel>("Mob_GetDriverTripDetails",
+                        new
+                        {
+                            TripID = tripID,
+
+                        },
+                        commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    db.Close();
+                    if (result != null)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
+
     }
 }
