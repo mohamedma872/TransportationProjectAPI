@@ -22,10 +22,24 @@ namespace TransportationBL.Model
         public int? manufactureYear { get; set; }
         public string insuranceNumber { get; set; }
         public string platNumber { get; set; }
-       
-      
 
     }
+
+
+    public class InsertVehcielModel
+    {
+        public int? VId { get; set; }
+        public int? UserID { get; set; }
+        public int? vCategoryNameId { get; set; }
+        public int? vModelId { get; set; }
+        public int? vWeight { get; set; }
+        public int? priceLoadingWater { get; set; }
+        public int? manufactureYear { get; set; }
+        public string insuranceNumber { get; set; }
+        public string platNumber { get; set; }
+
+    }
+
 
 
     public class VehcielCategory

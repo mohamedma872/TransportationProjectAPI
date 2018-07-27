@@ -24,20 +24,28 @@ namespace TransportationProjectAPI.Controllers
             try
             {
                 or = new DriverBl().GetDriverProfile(id);
-
             }
             catch (Exception ex)
             {
                 throw ex;
-
             }
-
             return or;
-
-
         }
 
-
+        [HttpGet, Route("api/Driver/InsertNewDriver")]
+        public OperationResult InsertNewDriver(int userId,string name)
+        {
+            OperationResult or;
+            try
+            {
+                or = new DriverBl().InsertNewDriver(userId,name);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return or;
+        }
 
     }
 }

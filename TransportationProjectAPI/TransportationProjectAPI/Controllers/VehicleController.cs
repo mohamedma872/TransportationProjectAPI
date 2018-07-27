@@ -17,7 +17,7 @@ namespace TransportationProjectAPI.Controllers
 
 
         [HttpPost, Route("api/Vehicle/InsertVehicleData")]
-        public OperationResult InsertVehicleData(VehcielModel model)
+        public OperationResult InsertVehicleData(InsertVehcielModel model)
         {
             OperationResult or;
             try
@@ -55,12 +55,13 @@ namespace TransportationProjectAPI.Controllers
         }
 
         [HttpGet, Route("api/Vehicle/GetVehicleData")]
-        public OperationResult GetVehicleData(string lang,int driverId)
+        public VehcielModel GetVehicleData(string lang,int userId)
         {
-            OperationResult or;
+            //OperationResult or;
             try
             {
-                or = new VehicelBl().GetVehicleData(driverId,lang);
+                var data = new VehicelBl().GetVehicleData(userId,lang);
+                return data;
 
             }
             catch (Exception ex)
@@ -69,7 +70,7 @@ namespace TransportationProjectAPI.Controllers
 
             }
 
-            return or;
+
         }
 
         [HttpGet, Route("api/Vehicle/GetVehicleCategoryType")]

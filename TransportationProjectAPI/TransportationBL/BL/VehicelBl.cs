@@ -54,7 +54,7 @@ namespace TransportationBL.BL
 
         }
 
-        public OperationResult InsertNewVehicle(VehcielModel vehciel)
+        public OperationResult InsertNewVehicle(InsertVehcielModel vehciel)
         {
             var be = new BusinessException();
             OperationResult or = new OperationResult();
@@ -68,7 +68,8 @@ namespace TransportationBL.BL
                     var result = db.Query<int>("Mob_InsertNewVehcile",
                         new
                         {
-                        DriverID = vehciel.driverID,
+                        VId = vehciel.VId,
+                        UserID = vehciel.UserID,
                         VehicleCategoryId = vehciel.vCategoryNameId,
                         WeightCapacity = vehciel.vWeight,
                         VehicleModelId = vehciel.vModelId,
@@ -94,10 +95,10 @@ namespace TransportationBL.BL
 
         }
 
-        public OperationResult GetVehicleData(int driverId,string lang)
+        public VehcielModel GetVehicleData(int userId,string lang)
         {
             var be = new BusinessException();
-            OperationResult or = new OperationResult();
+           // OperationResult or = new OperationResult();
             using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
             {
 
@@ -108,15 +109,15 @@ namespace TransportationBL.BL
                     var result = db.Query<VehcielModel>("Mob_GetVehicleData",
 
                           new
-                          {   DriverID= driverId,
+                          {   userId= userId,
                               Lang = lang
                           }
                     , commandType: CommandType.StoredProcedure).FirstOrDefault();
                     db.Close();
                   
-                        or.Result = result;
+                      //  or.Result = result;
                     
-                    return or;
+                    return result;
 
                 }
                 catch (Exception e)

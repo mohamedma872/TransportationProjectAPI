@@ -11,7 +11,43 @@ namespace TransportationBL.BL
 {
     public class DriverBl
     {
-        //
+
+
+        public OperationResult InsertNewDriver(int userId,string name)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<int>("Mob_CreateNewDriver",
+                        new
+                        {
+                        UserId = userId,
+                        Name = name,
+                          
+                        },
+                        commandType: CommandType.StoredProcedure).SingleOrDefault();
+                    db.Close();
+                    if (result > 0)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
         public OperationResult GetDriverProfile(int userId)
         {
             var be = new BusinessException();
