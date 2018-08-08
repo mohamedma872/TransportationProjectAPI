@@ -54,6 +54,28 @@ namespace TransportationProjectAPI.Controllers
             return or;
         }
 
+
+        [HttpGet, Route("api/Vehicle/GetAllVehicleCategory")]
+        public OperationResult GetAllVehicleCategory()
+        {
+            OperationResult or;
+            try
+            {
+                or = new VehicelBl().GetAllVehicleCategory();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
+
         [HttpGet, Route("api/Vehicle/GetVehicleData")]
         public VehcielModel GetVehicleData(string lang,int userId)
         {
