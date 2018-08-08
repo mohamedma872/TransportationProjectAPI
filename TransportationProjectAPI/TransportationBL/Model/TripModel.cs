@@ -8,6 +8,7 @@ namespace TransportationBL.Model
 {
     class TripModel
     {
+        //
         public string TripStartDateTime { get; set; }
         public string TripPrice { get; set; }
         public string pickupName { get; set; }
