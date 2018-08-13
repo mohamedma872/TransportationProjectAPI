@@ -41,6 +41,19 @@ namespace TransportationBL.Model
     }
 
 
+    public class AllVehcielCategoryModel
+    {
+        public int? id         { get; set; }
+        public string imageUrl { get; set; }
+        public string nameAr   { get; set; }
+        public string nameEn   { get; set; }
+        public string nameOr   { get; set; }
+        public int? parentId   { get; set; }
+
+    }
+
+ 
+
 
     public class VehcielCategory
     {
