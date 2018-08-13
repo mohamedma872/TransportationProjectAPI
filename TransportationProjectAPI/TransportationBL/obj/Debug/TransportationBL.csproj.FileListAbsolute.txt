@@ -12,10 +12,10 @@ E:/Projects/Business Project/transportation project/TransportationProjectAPI/Tra
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.csproj.CoreCompileInputs.cache
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.dll
 /Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.pdb
-D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.dll
-D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.pdb
-D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.dll
-D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.xml
-D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.csprojResolveAssemblyReference.cache
-D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.dll
-D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.pdb
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\TransportationBL.dll
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\TransportationBL.pdb
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\Dapper.dll
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\Dapper.xml
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.csprojResolveAssemblyReference.cache
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.dll
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.pdb
