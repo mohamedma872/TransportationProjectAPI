@@ -55,5 +55,27 @@ namespace TransportationProjectAPI.Controllers
 
         }
 
+        [HttpGet, Route("api/User/checkEmailForEditProfile")]
+
+        public OperationResult checkEmailForEditProfile(string email , int userId)
+        {
+            OperationResult or;
+            try
+            {
+                or = new UserBL().checkEmailForEditProfile(email,userId);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
+
     }
 }
