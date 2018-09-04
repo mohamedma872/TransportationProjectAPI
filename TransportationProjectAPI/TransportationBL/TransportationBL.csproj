@@ -49,6 +49,7 @@
     <Compile Include="BL\UserBL.cs" />
     <Compile Include="Model\CustomerModel.cs" />
     <Compile Include="Model\DriverModel.cs" />
+    <Compile Include="Model\NotificationModelcs.cs" />
     <Compile Include="Model\VehcielModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\BusinessException.cs" />

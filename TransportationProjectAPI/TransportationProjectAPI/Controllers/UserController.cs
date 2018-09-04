@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using TransportationBL.BL;
+using TransportationBL.Model;
 using TransportationBL.utilities;
 using TransportationProjectAPI.Filter;
 
@@ -42,6 +43,27 @@ namespace TransportationProjectAPI.Controllers
             try
             {
                 or = new UserBL().checkEmail(email);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
+
+        [HttpPost, Route("api/User/UpdateMobileLang")]
+
+        public OperationResult UpdateMobileLang(NotificationModelcs model)
+        {
+            OperationResult or;
+            try
+            {
+                or = new UserBL().UpdateMobileLang(model);
 
             }
             catch (Exception ex)

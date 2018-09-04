@@ -153,6 +153,25 @@ namespace TransportationProjectAPI.Controllers
 
 
 
+        [HttpGet, Route("api/Vehicle/GetNearstDriver")]
+        public OperationResult GetNearstDriver(double Picklat, double PickLon, int VsubCategory, double dropofflat, double dropoffLon)
+        {
+            OperationResult or;
+            try
+            {
+                or = new VehicelBl().GetNearstDriver(Picklat,PickLon,VsubCategory,dropofflat,dropoffLon);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
 
 
     }
