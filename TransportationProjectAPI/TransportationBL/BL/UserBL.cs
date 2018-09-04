@@ -87,7 +87,7 @@ namespace TransportationBL.BL
         }
 
 
-        public OperationResult UpdateMobileLang(string Lang,string IEMI,int UserID,string AccessToken,bool IOS)
+        public OperationResult UpdateMobileLang(NotificationModelcs model)
         {
             var be = new BusinessException();
             OperationResult or = new OperationResult();
@@ -101,11 +101,11 @@ namespace TransportationBL.BL
                     var result = db.Query<int>("Mob_UpdateMobileLang",
                         new
                         {
-                            Lang = Lang,
-                            IEMI = IEMI,
-                            UserID = UserID,
-                            AccessToken = AccessToken,
-                            IOS = IOS
+                            Lang = model.Lang,
+                            IEMI = model.IEMI,
+                            UserID = model.UserID,
+                            AccessToken = model.AccessToken,
+                            IOS = model.IOS
 
                         },
                         commandType: CommandType.StoredProcedure).SingleOrDefault();
