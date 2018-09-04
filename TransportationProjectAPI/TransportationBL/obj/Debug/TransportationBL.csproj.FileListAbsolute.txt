@@ -16,6 +16,7 @@ D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\Transportat
 D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\TransportationBL.pdb
 D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\Dapper.dll
 D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\Dapper.xml
-D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.csprojResolveAssemblyReference.cache
 D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.dll
 D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\obj\Debug\TransportationBL.pdb
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\TransportationBL.dll.CodeAnalysisLog.xml
+D:\mobile projects\TransportationProjectAPI\TransportationProjectAPI\TransportationBL\bin\Debug\TransportationBL.dll.lastcodeanalysissucceeded
