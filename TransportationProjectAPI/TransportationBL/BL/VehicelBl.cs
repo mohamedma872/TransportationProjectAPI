@@ -258,5 +258,39 @@ namespace TransportationBL.BL
 
         }
 
+        public OperationResult GetNearstDriver(double Picklat,double PickLon,int VsubCategory, double dropofflat, double dropoffLon)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<VehcielModel>("Mob_GetNearstDriver",
+                          new
+                          {
+                              Picklat = Picklat,
+                              PickLon = PickLon,
+                              VsubCategory = VsubCategory
+                          },
+                        commandType: CommandType.StoredProcedure).ToList();
+                    db.Close();
+                    if (result != null)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
     }
 }
