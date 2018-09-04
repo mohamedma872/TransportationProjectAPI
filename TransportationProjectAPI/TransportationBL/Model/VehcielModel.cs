@@ -22,7 +22,27 @@ namespace TransportationBL.Model
         public int? manufactureYear { get; set; }
         public string insuranceNumber { get; set; }
         public string platNumber { get; set; }
+        public string CurrentLatitude { get; set; }
+        public string CurrentLongitude { get; set; }
+        public string distance_in_km { get; set; }
+        public string Driverphone { get; set; }
+        public string DriverNameAr { get; set; }
+        public string DriverNameEn { get; set; }
+        public string DriverNameOr { get; set; }
+        public string DriverImage { get; set; }
+        public string CategoryID { get; set; }
+        public string CategoryImage { get; set; }
+        public string CategoryCost { get; set; }
+        public string CategoryNameAR { get; set; }
+        public string CategoryNameEN { get; set; }
+        public string CategoryNameOR { get; set; }
+        public string ModelNameAr { get; set; }
+        public string ModelNameEn { get; set; }
+        public string ModelNameOr { get; set; }
+        public string AccessToken { get; set; }
 
+        public string CurrentLang { get; set; }
+        public string IsIOS { get; set; }
     }
 
 
