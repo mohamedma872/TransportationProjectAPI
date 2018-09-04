@@ -86,5 +86,44 @@ namespace TransportationBL.BL
 
         }
 
+
+        public OperationResult UpdateMobileLang(string Lang,string IEMI,int UserID,string AccessToken,bool IOS)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<int>("Mob_UpdateMobileLang",
+                        new
+                        {
+                            Lang = Lang,
+                            IEMI = IEMI,
+                            UserID = UserID,
+                            AccessToken = AccessToken,
+                            IOS = IOS
+
+                        },
+                        commandType: CommandType.StoredProcedure).SingleOrDefault();
+                    db.Close();
+                    if (result > 0)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+        }
+
     }
 }
