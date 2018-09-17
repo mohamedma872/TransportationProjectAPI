@@ -60,6 +60,7 @@
     <Compile Include="BL\VehicelBl.cs" />
     <Compile Include="BL\TripBL.cs" />
     <Compile Include="Model\TripModel.cs" />
+    <Compile Include="Model\AttchementsModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -16,6 +16,21 @@ namespace TransportationProjectAPI.Controllers
     public class DriverController : ApiController
     {
 
+        [HttpGet, Route("api/Driver/GetDriverAttachments")]
+        public OperationResult GetDriverAttachments(int userId)
+        {
+            OperationResult or;
+            try
+            {
+                or = new DriverBl().GetDriverAttachments(userId);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return or;
+        }
+
         [HttpPost, Route("api/Driver/GetDriverProfile")]
 
         public OperationResult GetDriverProfile(int id)

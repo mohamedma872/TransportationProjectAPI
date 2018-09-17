@@ -60,7 +60,7 @@ namespace TransportationBL.BL
                         VehicleCategoryId = vehciel.vCategoryNameId,
                         WeightCapacity = vehciel.vWeight,
                         VehicleModelId = vehciel.vModelId,
-                        WaterLoadingPrice = vehciel.priceLoadingWater,
+                        OperationCard = vehciel.operationCard,
                         ManufactureYear = vehciel.manufactureYear,
                         InsuranceNo = vehciel.insuranceNumber,
                         PlatNumber = vehciel.platNumber
@@ -101,7 +101,7 @@ namespace TransportationBL.BL
                         VehicleCategoryId = vehciel.vCategoryNameId,
                         WeightCapacity = vehciel.vWeight,
                         VehicleModelId = vehciel.vModelId,
-                        WaterLoadingPrice = vehciel.priceLoadingWater,
+                        OperationCard = vehciel.OperationCard,
                         ManufactureYear = vehciel.manufactureYear,
                         InsuranceNo = vehciel.insuranceNumber,
                         PlatNumber= vehciel.platNumber

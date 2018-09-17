@@ -82,6 +82,39 @@ namespace TransportationBL.BL
 
         }
 
+
+        public OperationResult GetDriverAttachments(int userId)
+        {
+            var be = new BusinessException();
+            OperationResult or = new OperationResult();
+            using (IDbConnection db = new SqlConnection(TransportationConstants.Cn))
+            {
+
+                if (db.State == ConnectionState.Closed)
+                    db.Open();
+                try
+                {
+                    var result = db.Query<AttchementsModel>("Mob_GetDriverAttachements",
+                                new
+                                    {
+                                      UserId = userId
+                                    }
+                          , commandType: CommandType.StoredProcedure).SingleOrDefault();
+                    db.Close();
+                    if (result != null)
+                        or.Result = result;
+                    else
+                        or.Exceptions.Add("there is an error please try again ");
+                    return or;
+
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+        }
+
      
     }
 }

@@ -18,7 +18,7 @@ namespace TransportationBL.Model
         public int? vModelId { get; set; }
         public string vModelName { get; set; }
         public int? vWeight { get; set; }
-        public int? priceLoadingWater { get; set; }
+        public string operationCard { get; set; }
         public int? manufactureYear { get; set; }
         public string insuranceNumber { get; set; }
         public string platNumber { get; set; }
@@ -53,7 +53,7 @@ namespace TransportationBL.Model
         public int? vCategoryNameId { get; set; }
         public int? vModelId { get; set; }
         public int? vWeight { get; set; }
-        public int? priceLoadingWater { get; set; }
+        public string OperationCard { get; set; }
         public int? manufactureYear { get; set; }
         public string insuranceNumber { get; set; }
         public string platNumber { get; set; }
