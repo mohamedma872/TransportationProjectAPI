@@ -17,13 +17,14 @@ namespace TransportationBL.Model
         public string AccountNameAr { get; set; }
         public string AccountNameOr { get; set; }
         public string AccountNameEn { get; set; }
-        public string PhotoUrl { get; set; }
+        public string photo { get; set; }
         public string VehiclePlatNumber { get; set; }
         public string VehicleManufactureYear { get; set; }
         public string VehicleInsuranceNumber { get; set; }
         public string VehicleCategoryName { get; set; }
         public string VehicleModelsName { get; set; }
-       
+        public string CountryPhoneCode { get; set; }
+
 
 
 
