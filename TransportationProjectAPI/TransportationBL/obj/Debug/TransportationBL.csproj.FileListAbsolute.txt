@@ -1,0 +1,21 @@
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.pdb
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.pdb
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.csprojResolveAssemblyReference.cache
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.pdb
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.pdb
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.csprojResolveAssemblyReference.cache
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/TransportationBL.pdb
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/bin/Debug/Dapper.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.csproj.CoreCompileInputs.cache
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationBL/obj/Debug/TransportationBL.pdb

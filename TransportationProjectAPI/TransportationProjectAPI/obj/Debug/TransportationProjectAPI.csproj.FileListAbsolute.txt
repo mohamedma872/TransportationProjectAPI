@@ -1,0 +1,287 @@
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/ApplicationInsights.config
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/csc.exe
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CSharp.Core.targets
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.VisualBasic.Core.targets
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/System.Collections.Immutable.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/System.Reflection.Metadata.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/vbc.exe
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/VBCSCompiler.exe
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/VBCSCompiler.exe.config
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.dll.config
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.pdb
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Antlr3.Runtime.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.SqlServer.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Agent.Intercept.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.DependencyCollector.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.PerfCounterCollector.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.ServerTelemetryChannel.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Web.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.WindowsServer.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.ApplicationInsights.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Core.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Owin.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Host.SystemWeb.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Cookies.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Facebook.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Google.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.OAuth.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Twitter.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Web.Infrastructure.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Newtonsoft.Json.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Owin.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Net.Http.Formatting.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Helpers.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.Owin.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.WebHost.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Mvc.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Optimization.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Razor.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Deployment.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Razor.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/WebGrease.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.DependencyCollector.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.ServerTelemetryChannel.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Web.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.WindowsServer.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.ApplicationInsights.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Newtonsoft.Json.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Net.Http.Formatting.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Helpers.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.WebHost.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Mvc.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Optimization.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Razor.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Deployment.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Razor.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Antlr3.Runtime.pdb
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.SqlServer.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Core.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Owin.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Host.SystemWeb.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Facebook.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Cookies.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.OAuth.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Google.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Twitter.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.Owin.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.pdb
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationBL.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Dapper.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationBL.pdb
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Dapper.xml
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.XML
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Swashbuckle.Core.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/WebActivatorEx.dll
+E:/Projects/Business Project/transportation project/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csprojResolveAssemblyReference.cache
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csprojResolveAssemblyReference.cache
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/ApplicationInsights.config
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/csc.exe
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CSharp.Core.targets
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.VisualBasic.Core.targets
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/System.Collections.Immutable.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/System.Reflection.Metadata.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/vbc.exe
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/VBCSCompiler.exe
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/VBCSCompiler.exe.config
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.dll.config
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.XML
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Antlr3.Runtime.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.SqlServer.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Agent.Intercept.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.DependencyCollector.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.PerfCounterCollector.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.ServerTelemetryChannel.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Web.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.WindowsServer.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.ApplicationInsights.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Core.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Owin.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Host.SystemWeb.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Cookies.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Facebook.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Google.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.OAuth.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Twitter.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Web.Infrastructure.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Newtonsoft.Json.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Owin.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Swashbuckle.Core.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Net.Http.Formatting.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Helpers.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.Owin.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.WebHost.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Mvc.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Optimization.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Razor.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Deployment.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Razor.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationBL.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/WebActivatorEx.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/WebGrease.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Dapper.dll
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationBL.pdb
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.DependencyCollector.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.ServerTelemetryChannel.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Web.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.WindowsServer.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.ApplicationInsights.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Newtonsoft.Json.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Net.Http.Formatting.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Helpers.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.WebHost.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Mvc.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Optimization.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Razor.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Deployment.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Razor.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Antlr3.Runtime.pdb
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.SqlServer.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Core.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Owin.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Host.SystemWeb.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Facebook.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Cookies.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.OAuth.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Google.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Twitter.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.Owin.xml
+D:/mobile projects/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Dapper.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/ApplicationInsights.config
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/csc.exe
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.CSharp.Core.targets
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/System.Collections.Immutable.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/System.Reflection.Metadata.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/vbc.exe
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/VBCSCompiler.exe
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/roslyn/VBCSCompiler.exe.config
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.XML
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationProjectAPI.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Antlr3.Runtime.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.SqlServer.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Agent.Intercept.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.DependencyCollector.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.PerfCounterCollector.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.ServerTelemetryChannel.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Web.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.WindowsServer.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.ApplicationInsights.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Core.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Owin.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Host.SystemWeb.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Cookies.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Facebook.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Google.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.OAuth.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Twitter.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Web.Infrastructure.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Newtonsoft.Json.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Owin.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Swashbuckle.Core.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Net.Http.Formatting.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Helpers.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.Owin.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.WebHost.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Mvc.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Optimization.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Razor.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Deployment.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Razor.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationBL.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/WebActivatorEx.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/WebGrease.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Dapper.dll
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/TransportationBL.pdb
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.DependencyCollector.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.ServerTelemetryChannel.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.Web.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AI.WindowsServer.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.ApplicationInsights.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Newtonsoft.Json.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Net.Http.Formatting.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Helpers.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.WebHost.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Mvc.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Optimization.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Razor.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Deployment.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.WebPages.Razor.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Antlr3.Runtime.pdb
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/EntityFramework.SqlServer.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Core.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.Owin.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Host.SystemWeb.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Facebook.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Cookies.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.OAuth.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Google.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.Twitter.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/System.Web.Http.Owin.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/bin/Dapper.xml
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csprojResolveAssemblyReference.cache
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.csproj.CoreCompileInputs.cache
+/Projects/Web API/TransportationProjectAPI/TransportationProjectAPI/TransportationProjectAPI/obj/Debug/TransportationProjectAPI.dll
