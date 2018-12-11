@@ -33,7 +33,26 @@ namespace TransportationProjectAPI.Controllers
 
 
         }
+        [HttpGet, Route("api/Trips/GetSetting")]
 
+        public OperationResult GetSetting()
+        {
+            OperationResult or;
+            try
+            {
+                or = new TripBL().GetSetting();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+
+            return or;
+
+
+        }
 
 
         [HttpGet, Route("api/Trips/GetTripsDetail")]
