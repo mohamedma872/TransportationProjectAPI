@@ -34,10 +34,9 @@ namespace TransportationBL.BL
                         },
                         commandType: CommandType.StoredProcedure).SingleOrDefault();
                     db.Close();
-                    if (result != null)
+                   
                         or.Result = result;
-                    else
-                        or.Exceptions.Add("there is an error please try again");
+                   
                     return or;
 
                 }
