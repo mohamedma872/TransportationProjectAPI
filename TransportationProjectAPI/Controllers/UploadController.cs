@@ -33,7 +33,7 @@ public class UploadController : ApiController
                 if (postedFile != null && postedFile.ContentLength > 0)
                 {
 
-                    int MaxContentLength = 1024 * 1024 * 1; //Size = 1 MB
+                    int MaxContentLength = 1024 * 1024 * 10; //Size = 1 MB
                     IList<string> AllowedFileExtensions = new List<string> { ".jpg", ".gif", ".png" };
                     var ext = postedFile.FileName.Substring(postedFile.FileName.LastIndexOf('.'));
                     var extension = ext.ToLower();
@@ -48,7 +48,7 @@ public class UploadController : ApiController
                     else if (postedFile.ContentLength > MaxContentLength)
                     {
 
-                        var message = string.Format("Please Upload a file upto 1 mb.");
+                        var message = string.Format("Please Upload a file upto 10 mb.");
 
                         dict.Add("error", message);
                         return Request.CreateResponse(HttpStatusCode.BadRequest, dict);
@@ -61,10 +61,10 @@ public class UploadController : ApiController
 
                         //if needed write the code to update the table
 
-                        var filePath = HttpContext.Current.Server.MapPath("~/App_Data/" + postedFile.FileName.Replace(" ", string.Empty));
+                        var filePath = HttpContext.Current.Server.MapPath("~/App_Data/" +key.ToString() + "_" + UserID.ToString() + postedFile.FileName.Replace(" ", string.Empty));
                         //Userimage myfolder name where i want to save my image
                         postedFile.SaveAs(filePath);
-                         pathes.Add("http://api.shuhnaty.com/attachement/" + postedFile.FileName.Replace(" ", string.Empty));
+                         pathes.Add("http://api.shuhnaty.com/attachement/" +key.ToString() + "_" + UserID.ToString() + postedFile.FileName.Replace(" ", string.Empty));
                         var json = JsonConvert.SerializeObject(new
                         {
                             Files = pathes
@@ -72,7 +72,7 @@ public class UploadController : ApiController
                         OperationResult or;
                         try
                         {
-                            or = new DriverBl().updateAttachments(UserID, key, "http://api.shuhnaty.com/attachement/" + postedFile.FileName.Replace(" ", string.Empty));
+                            or = new DriverBl().updateAttachments(UserID, key, "http://api.shuhnaty.com/attachement/" +key.ToString() + "_" + UserID.ToString() + postedFile.FileName.Replace(" ", string.Empty));
                         }
                         catch (Exception ex)
                         {
